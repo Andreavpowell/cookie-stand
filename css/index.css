@@ -1,0 +1,25 @@
+body {
+  width: 100vw;
+  background-image: linear-gradient(black, white);
+}
+
+main ul {
+  display: block;
+  float: left;
+  width: 30%;
+  align-content: center;
+  text-align: center;
+  height: 200px;
+}
+
+main {
+  width: 100%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+

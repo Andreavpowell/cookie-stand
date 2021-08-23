@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/sales.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1> Welcome to Salmon Cookies!</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+    <main>
+      <form id="form">
+        <fieldset>
+          <legend>
+            Generate New Store
+          </legend>
+          <label>
+            Store Location
+            <input name="location" type="text" required />
+          </label>
+          <label>
+            Minimum Customers
+            <input name="minCust" type="number" required />
+          </label>
+          <label>
+            Maximum Customers
+            <input name="maxCust" type="number" required />
+          </label>
+          <label>
+            Average Sale Per Customer
+            <input name="avgSales" type="number" step=".1" required />
+            </label>
+            <input type="Submit" value="Create Store">
+        </fieldset>
+      </form>
+      <h1 id="error"></h1>
+      <table>
+        <thead id="table-header">
+
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+        <tfoot id="table-footer">
+      
+        </tfoot>
+      </table>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li>&copy 2021</li>
+        </ul>
+      </nav>
+</footer>
+<script src="./js/app2.js"></script>
+</body>
+</html>
